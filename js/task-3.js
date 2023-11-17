@@ -5,7 +5,7 @@ class StringBuilder {
   }
 
   getValue(value) {
-    return this;
+    return this.value;
   }
   
   padEnd(value) {
